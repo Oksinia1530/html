@@ -1,3 +1,23 @@
+
+-- create
+CREATE TABLE Users (
+id INTEGER PRIMARY KEY,
+name TEXT NOT NULL,
+age INTEGER NOT NULL,
+address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO Users VALUES (0001, 'Иван', 18, 'Москва');
+INSERT INTO Users VALUES (0002, 'Петр', 22, 'Иваново');
+INSERT INTO Users VALUES (0003, 'Анна', 35, 'Питер');
+INSERT INTO Users VALUES (0004, 'Юлия', 18, 'Москва');
+INSERT INTO Users VALUES (0005, 'Николай', 36, 'Москва');
+
+select * from Users where age >= 18;
+
+
+
 <?php
 // ????????? ?????? c ?????? ??????
 $job = [
